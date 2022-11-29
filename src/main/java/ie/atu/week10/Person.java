@@ -1,8 +1,10 @@
 package ie.atu.week10;
 
 public class Person {
+
+    private static String address;
     private String name;
-    private String address;
+   // private String address;
     private String number;
 
     public Person(){
@@ -23,7 +25,7 @@ public class Person {
         this.name = name;
     }
 
-    public String getAddress() {
+    public static String getAddress(){
         return address;
     }
 
